@@ -61,8 +61,8 @@ import styles from "./styles/PaletteListStyles"
         <TransitionGroup className={ classes.palettes}>
         {palettes.map(palette =>(
           <CSSTransition key={palette.id} classNames="fade" timeout={500}>
-          <Link to={`/palette/${palette.id}`}>
-          {/* handleDelete={deletePalette} */}
+          <Link style={{textDecoration:"none"}} to={`/palette/${palette.id}`}>
+         
          <MiniPalette key={palette.id} id={palette.id}  oepnDialog={this.openDialog} {...palette} handleClick={this.goToPalette} />
           </Link>
           </CSSTransition>

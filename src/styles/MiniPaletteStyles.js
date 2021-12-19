@@ -18,7 +18,8 @@ export default {
    height:"150px",
    width:"100%",
    borderRadius:"5px",
-   overflow:"hidden"
+   overflow:"hidden",
+    
   },
   title: {
    display: "flex",
@@ -28,7 +29,9 @@ export default {
    color: "black", 
    paddingTop: "0.5rem",
    fontSize: "1rem",
-   position: "relative"
+   position: "relative",
+   textDecoration: "none !important",
+  
   },
   emoji: {
    marginLeft: "0.5rem",
@@ -40,7 +43,8 @@ export default {
     display: "inline-block",
     margin: "0 auto",
     position: "relative",
-    marginBottom: "-3.5px"
+    marginBottom: "-3.5px",
+   
   },
   deleteIcon: {
     color: "white",
